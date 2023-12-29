@@ -5,8 +5,8 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
     throw false;
   }
   const pesan = args.join` `;
-  const oi = `*𝙼𝙴𝙽𝚂𝙰𝙹𝙴:* *𝙰𝙻𝙲𝙰𝙱𝙾𝚃🤖*`;
-  let teks = `*𝙼𝙴𝙽𝙲𝙸𝙾𝙽 𝙶𝙴𝙽𝙴𝚁𝙰𝙻*\n\n *✨𝙰𝙻𝙲𝙰-𝙱𝙾𝚃* \n\n✨ *𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂:*\n`;
+  const oi = `*𝗠𝗘𝗡𝗦𝗔𝗝𝗘:* *𝗔𝗟𝗖𝗔𝗕𝗢𝗧²|𝗡𝗘𝗪*`;
+  let teks = `*𝗠𝗘𝗡𝗖𝗜𝗢𝗡 𝗚𝗘𝗡𝗘𝗥𝗔𝗟*\n\n *𝗔𝗟𝗖𝗔𝗕𝗢𝗧²|𝗡𝗘𝗪✨* \n\n🫰🏻 *𝗘𝗧𝗜𝗤𝗨𝗘𝗧𝗔𝗦:*\n`;
   for (const mem of participants) {
     teks += `👤 @${mem.id.split('@')[0]}\n`;
   }
@@ -17,4 +17,3 @@ handler.tags = ['group'];
 handler.command = /^(tagall|invocar|invocacion|todos|invocación)$/i;
 handler.admin = true;
 handler.group = true;
-export default handler;
