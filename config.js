@@ -8,7 +8,7 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.owner = [
-  ['528241050228', '💥 𝗔𝗟𝗖𝗔𝗕𝗢𝗧 💥 ', true],
+  ['528241050228', '𝗔𝗟𝗖𝗔𝗕𝗢𝗧²|𝗡𝗘𝗪 ', true],
   ['528142113343', ' ALCA VENTAS✦', true],
   ['5217294888993'],['573106040746'],['51929972576'],['5217774519212'],
 ];
@@ -16,12 +16,12 @@ global.owner = [
 global.suittag = ['51992004117'],['50576390682']
 global.prems = ['51992004127'],['50576390682']
 
-global.packname = '☯︎ 𝙱𝙾𝚃\n☯︎ 𝙾𝚆𝙽𝙴𝚁';
-global.author = 'ʜᴀᴄʜɪᴋᴏ-ʙᴏᴛ-ᴍᴅ\nʜᴀᴄʜᴇᴊᴏᴛᴀ';
-global.wm = '𝗔 𝗟 𝗖 𝗔 － 𝐁𝐎𝐓 ';
-global.titulowm = '👋 𝗔 𝗟 𝗖 𝗔 － 𝐁𝐎𝐓 👋';
-global.titulowm2 = ` 𝗔 𝗟 𝗖 𝗔 - 𝐁 𝐎 𝐓  `
-global.igfg = '✪𝐇𝐚𝐜𝐡𝐢𝐤𝐨 - 𝐁𝐨𝐭✪';
+global.packname = '𝗔𝗟𝗖𝗔𝗕𝗢𝗧²|𝗡𝗘𝗪';
+global.author = '𝗔𝗟𝗖𝗔𝗕𝗢𝗧²|𝗡𝗘𝗪';
+global.wm = '𝗔𝗟𝗖𝗔𝗕𝗢𝗧²|𝗡𝗘𝗪';
+global.titulowm = '𝗔𝗟𝗖𝗔𝗕𝗢𝗧²|𝗡𝗘𝗪;
+global.titulowm2 = ` 𝗔𝗟𝗖𝗔𝗕𝗢𝗧²|𝗡𝗘𝗪 `
+global.igfg = '𝗔𝗟𝗖𝗔𝗕𝗢𝗧²|𝗡𝗘𝗪';
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -43,8 +43,8 @@ global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 
 //****************************
-global.gt = '★𝙷𝚊𝚌𝚑𝚒𝚔𝚘-𝙱𝚘𝚝★';
-global.mysticbot = '★𝙷𝙰𝙲𝙷𝙸𝙺𝙾 - 𝙱𝙾𝚃★';
+global.gt = '𝗔𝗟𝗖𝗔𝗕𝗢𝗧²|𝗡𝗘𝗪';
+global.mysticbot = '𝗔𝗟𝗖𝗔𝗕𝗢𝗧²|𝗡𝗘𝗪';
 global.md = 'https://github.com/HACHEJOTA/Hachiko-bot-MD';
 global.mysticbot = 'https://github.com/HACHEJOTA/Hachiko-bot-MD';
 global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
