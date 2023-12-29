@@ -19,16 +19,7 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +1
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `┏━━━━━━━━━━━━━━━━━━━━┓
-┃ ◉— *🅗🅐🅒🅗🅘🅚🅞-🅑🅞🅣-🅜🅓* —◉
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣⟣☯︎ 𝙾𝚆𝙽𝙴𝚁: 𝙷𝙰𝙲𝙷𝙴𝙹𝙾𝚃𝙰
-┣⟣☯︎ 𝙽𝚄𝙼𝙴𝚁𝙾: +51 992 004 117
-┣⟣☯︎ 𝙵𝙴𝙲𝙷𝙰: ${date}
-┣⟣☯︎ 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}
-┣⟣☯︎ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg}
-┗━━━━━━━━━━━━━━━━━━━━┛
-
+    const str = `
 ┏━━━━━━━━━━━━━━━━┓
 ┃ *< MENU+18 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
