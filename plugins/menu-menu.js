@@ -5,7 +5,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   const {money, joincount} = global.db.data.users[m.sender];
   const {exp, limit, level, role} = global.db.data.users[m.sender];
   let txt = `𝗔𝗟𝗖𝗔𝗕𝗢𝗧²|𝗡𝗘𝗪
-
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *◉—𝗔𝗟𝗖𝗔𝗕𝗢𝗧²|𝗡𝗘𝗪—◉*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
